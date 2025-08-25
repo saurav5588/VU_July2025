@@ -29,7 +29,7 @@ This project demonstrates **Step-1 and Step-2 combined**:
 
 ---
 
-## 🚀 Deploy
+## Deploy
 ```powershell
 # Activate virtual environment
 .\.venv\Scripts\Activate.ps1

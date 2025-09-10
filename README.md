@@ -122,7 +122,7 @@ The alarm workflow connected monitoring to action: detect → notify → persist
 - Manual alarm testing by lowering thresholds.  
 - SNS test message published to confirm email and Lambda delivery.  
 - DynamoDB verified through alarm-triggered inserts.  
-- Logs checked in CloudWatch for debugging.  
+- Logs are checked in CloudWatch for debugging.  
 
 ### Schedule
 - **Week 1–2:** AWS setup, CDK bootstrap, environment preparation.  

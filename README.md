@@ -40,8 +40,8 @@ This system is developed using **AWS CDK (Python)** to monitor website health by
 ![Step 1 Lambda](images/Step1_1.JPG)  
 
 **Screenshot – CloudWatch Metrics (Availability & Latency)**  
-![Step 1 Metrics](images/Step2_2.JPG)  
-![Step 1 Metrics](images/Step2_3.JPG)  
+![Step 1 Metrics](images/Step1_2.JPG)  
+![Step 1 Metrics](images/Step1_3.JPG)  
 
 **Reflection:**  
 This validated the AWS Lambda + CloudWatch integration. The main challenge was IAM permission for metric publishing, which was solved by attaching a CloudWatch PutMetricData policy.  
@@ -87,7 +87,7 @@ This showed scalability — from single to multiple URLs. The dashboard provided
 ![Step 3 Email](images/Step3_4.JPG)  
 
 **Screenshot – DynamoDB Alarm Logs**  
-![Step 3 DynamoDB](images/Step3_5.JPG)  
+![Step 3 DynamoDB](images/Step3_5.jpeg)  
 
 **Reflection:**  
 The alarm workflow connected monitoring to action: detect → notify → persist. A major issue was DynamoDB rejecting floats, fixed by converting to `Decimal`.  
